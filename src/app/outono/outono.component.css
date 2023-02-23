@@ -1,0 +1,36 @@
+.moda{
+  width: 300px;
+}
+#primavera{
+  background-color: #84C495;
+}
+#imagens{
+  display: grid;
+  grid-template-columns: 1fr 4fr 3fr 3fr;
+}
+img{
+  padding: 10px;
+  border-radius: 20px;
+}
+@media (max-width: 1268px) {
+  #imagens{
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+  }
+@media (max-width: 968px) {
+#imagens{
+  grid-template-columns: 1fr 1fr ;
+}
+}
+@media (max-width: 608px) {
+  #imagens{
+    grid-template-columns: 1fr;
+  }
+}
+.text{
+  padding: 20px;
+  font-size: 30px;
+}
+.estação{
+  width: 50px
+}

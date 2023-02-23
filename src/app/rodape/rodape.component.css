@@ -1,0 +1,16 @@
+#rodape{
+  margin-left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+.moda{
+  width: 200px;
+  padding: 20px;
+}
+.estação{
+  width: 35px;
+  margin: 20px
+}
+button{
+  background-color: black;
+}

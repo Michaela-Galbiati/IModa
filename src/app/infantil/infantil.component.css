@@ -1,0 +1,27 @@
+.seta{
+  margin-left: 50%;
+  transform: translateX(-10%);
+  animation: seta  3s    infinite;
+}
+@keyframes seta {
+  0%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(40px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+button{
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 30px;
+}
+@media (max-width: 968px) {
+  button{
+    font-size: 20px;
+  }
+}
