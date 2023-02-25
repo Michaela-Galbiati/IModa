@@ -13,6 +13,14 @@ import { OutonoComponent } from './outono/outono.component';
 import { InvernoComponent } from './inverno/inverno.component';
 import { VeraoComponent } from './verao/verao.component';
 import { routing } from './app-routing.module';
+import { MinvernoComponent } from './minverno/minverno.component';
+import { MveraoComponent } from './mverao/mverao.component';
+import { MprimaveraComponent } from './mprimavera/mprimavera.component';
+import { MoutonoComponent } from './moutono/moutono.component';
+import { FoutonoComponent } from './foutono/foutono.component';
+import { FveraoComponent } from './fverao/fverao.component';
+import { FinvernoComponent } from './finverno/finverno.component';
+import { FprimaveraComponent } from './fprimavera/fprimavera.component';
 
 
 @NgModule({
@@ -27,7 +35,15 @@ import { routing } from './app-routing.module';
     PrimaveraComponent,
     OutonoComponent,
     InvernoComponent,
-    VeraoComponent
+    VeraoComponent,
+    MinvernoComponent,
+    MveraoComponent,
+    MprimaveraComponent,
+    MoutonoComponent,
+    FoutonoComponent,
+    FveraoComponent,
+    FinvernoComponent,
+    FprimaveraComponent
   ],
   imports: [
     BrowserModule,

@@ -16,6 +16,7 @@ h3{
   margin-top: 0px;
 
 }
+
 #question{
   position: absolute;
   z-index: 999;
@@ -23,7 +24,13 @@ h3{
   top: 0;
   left: 0;
   color: yellow;
-  cursor: pointer
+  cursor: pointer;
+  animation: move 3s ease-in-out;
+}
+@keyframes move {
+  0%{
+    transform: translateX(-500px);
+  }
 }
 @media (max-width: 1208px) {
   a{

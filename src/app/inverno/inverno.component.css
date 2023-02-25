@@ -6,8 +6,8 @@
 }
 #imagens{
   display: grid;
-  grid-template-columns: 1fr 4fr 3fr 3fr;
-}
+  grid-template-columns: 1fr 4fr 3fr 3fr;}
+
 img{
   padding: 10px;
   border-radius: 20px;
@@ -19,12 +19,18 @@ img{
   }
 @media (max-width: 968px) {
 #imagens{
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr  1fr;
+}
+.moda{
+  width: 200px;
 }
 }
 @media (max-width: 608px) {
   #imagens{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .moda{
+    width: 200px;
   }
 }
 .text{

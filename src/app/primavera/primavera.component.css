@@ -19,15 +19,20 @@ img{
   }
 @media (max-width: 968px) {
 #imagens{
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr  1fr;
+}
+.moda{
+  width: 200px;
 }
 }
 @media (max-width: 608px) {
   #imagens{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .moda{
+    width: 200px;
   }
 }
-
 .text{
   padding: 20px;
   font-size: 30px;
